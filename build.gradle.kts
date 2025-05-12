@@ -3,6 +3,7 @@ import xyz.jpenilla.resourcefactory.paper.PaperPluginYaml
 plugins {
     java
     id("xyz.jpenilla.resource-factory-paper-convention") version "1.2.1"
+    id("xyz.jpenilla.run-paper") version "2.3.1"
 }
 
 description = "Lib's Disguises Expansion for MiniPlaceholders"
@@ -24,6 +25,12 @@ java.toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 tasks {
     compileJava {
         options.encoding = Charsets.UTF_8.name()
+    }
+    runServer {
+        minecraftVersion("1.21.4")
+        downloadPlugins {
+            modrinth("miniplaceholders", "wck4v0R0")
+        }
     }
 }
 
