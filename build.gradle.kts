@@ -11,7 +11,7 @@ version = "1.0.0-SNAPSHOT"
 
 dependencies {
     compileOnly("io.github.miniplaceholders:miniplaceholders-api:2.3.0")
-    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
     compileOnly("me.libraryaddict.disguises:libsdisguises:11.0.0")
 }
 
@@ -36,7 +36,7 @@ tasks {
 
 paperPluginYaml {
     main = "io.github.miniplaceholders.expansion.libsdisguises.paper.PaperPlugin"
-    apiVersion = "1.21.4"
+    apiVersion = "1.21"
     authors.add("FabianAdrian")
     foliaSupported = true
     dependencies {
