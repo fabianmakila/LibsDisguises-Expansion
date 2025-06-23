@@ -1,4 +1,4 @@
-# Example-Expansion
+# LibsDisguises-Expansion
 Lib's Disguises Expansion for MiniPlaceholders
 
 ## Placeholders
