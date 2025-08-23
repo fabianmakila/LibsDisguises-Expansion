@@ -13,6 +13,8 @@ public final class LibsDisguisesExpansionProvider implements ExpansionProvider {
 	@Override
 	public Expansion provideExpansion() {
 		return Expansion.builder("libsdisguises")
+				.author("FabianAdrian")
+				.version("1.0.0-SNAPSHOT")
 				.audiencePlaceholder(Player.class, "disguise_name", new DisguiseNamePlaceholder())
 				.audiencePlaceholder(Player.class, "disguise_type", new DisguiseTypePlaceholder())
 				.audiencePlaceholder(Player.class, "player_disguise_name", new PlayerDisguiseNamePlaceholder())
