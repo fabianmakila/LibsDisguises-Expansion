@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 
 public final class DisguiseTypePlaceholder implements AudienceTagResolver<@NotNull Player> {
 	@Override
-	public @Nullable Tag tag(@NotNull Player player, @NotNull ArgumentQueue argumentQueue, @NotNull Context context) {
+	public @Nullable Tag tag(@NotNull Player player, @NotNull ArgumentQueue queue, @NotNull Context context) {
 		Disguise disguise = DisguiseAPI.getDisguise(player);
 		if (disguise == null) {
 			return null;
