@@ -1,4 +1,4 @@
-package io.github.miniplaceholders.expansion.libsdisguises.paper.placeholder;
+package io.github.miniplaceholders.expansion.libsdisguises.placeholder;
 
 import io.github.miniplaceholders.api.resolver.AudienceTagResolver;
 import me.libraryaddict.disguise.DisguiseAPI;

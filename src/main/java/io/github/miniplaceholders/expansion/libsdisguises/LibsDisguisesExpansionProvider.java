@@ -1,12 +1,12 @@
-package io.github.miniplaceholders.expansion.libsdisguises.paper;
+package io.github.miniplaceholders.expansion.libsdisguises;
 
 import io.github.miniplaceholders.api.Expansion;
 import io.github.miniplaceholders.api.provider.ExpansionProvider;
 import io.github.miniplaceholders.api.provider.LoadRequirement;
 import io.github.miniplaceholders.api.types.Platform;
-import io.github.miniplaceholders.expansion.libsdisguises.paper.placeholder.DisguiseNamePlaceholder;
-import io.github.miniplaceholders.expansion.libsdisguises.paper.placeholder.DisguiseTypePlaceholder;
-import io.github.miniplaceholders.expansion.libsdisguises.paper.placeholder.PlayerDisguiseNamePlaceholder;
+import io.github.miniplaceholders.expansion.libsdisguises.placeholder.DisguiseNamePlaceholder;
+import io.github.miniplaceholders.expansion.libsdisguises.placeholder.DisguiseTypePlaceholder;
+import io.github.miniplaceholders.expansion.libsdisguises.placeholder.PlayerDisguiseNamePlaceholder;
 import org.bukkit.entity.Player;
 
 public final class LibsDisguisesExpansionProvider implements ExpansionProvider {
